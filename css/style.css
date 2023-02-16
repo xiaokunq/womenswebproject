@@ -16,6 +16,18 @@ img{
     border-radius: 10px;
 }
 
+img:hover
+{
+    background-color: darkgoldenrod;
+}
+
+img:nth-child(2n+1){
+    border: 1px solid red;
+}
+
+
+
+
 ul {
     display: flex;
     flex-direction: row;
@@ -40,7 +52,7 @@ nav a{
    
     text-decoration: underline;
     text-underline-offset: 8px; 
-    color: rgb(179, 135, 60);
+    color: rgb(145, 112, 55);
 }
 
 .skip{
