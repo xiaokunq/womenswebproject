@@ -22,7 +22,7 @@ img:hover
 }
 
 img:nth-child(2n+1){
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 
